@@ -1,10 +1,9 @@
 <template>
   <div class="home-view"></div>
-  <Button />
+  <h1>Home view</h1>
 </template>
 
 <script>
-import Button from "../components/Button.vue";
 export default {
   name: "Home",
   components: {

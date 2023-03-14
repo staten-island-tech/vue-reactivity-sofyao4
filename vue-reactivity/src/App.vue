@@ -1,11 +1,17 @@
 <script setup>
+import NavAbout from "../views/Nav-About.vue";
 import HelloWorld from "./components/HelloWorld.vue";
+import Home from "../views/Nav-Home.vue";
 </script>
 
 <template>
-  <div></div>
-
-  <HelloWorld msg="Vite + Vue" />
+  <div>
+    <div id="nav">
+      <router-link to="/">Home</router-link>
+      <router-link to="/about">About</router-link>
+    </div>
+  </div>
+  <router-view />
 </template>
 
 <style scoped>
