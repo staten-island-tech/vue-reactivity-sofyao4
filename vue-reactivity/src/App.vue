@@ -1,17 +1,12 @@
 <script setup>
-import NavAbout from "../views/Nav-About.vue";
 import HelloWorld from "./components/HelloWorld.vue";
-import Home from "../views/Nav-Home.vue";
+import firstButton from "./components/first-button.vue";
 </script>
 
 <template>
   <div>
-    <div id="nav">
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-    </div>
+    <firstButton>Click</firstButton>
   </div>
-  <router-view />
 </template>
 
 <style scoped>
