@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue";
 import firstButton from "./components/first-button.vue";
+import Home from "../views/Nav-Home.vue";
 </script>
 
 <template>
