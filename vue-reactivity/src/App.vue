@@ -1,12 +1,13 @@
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue";
-import firstButton from "./components/first-button.vue";
+
 import Home from "../views/Nav-Home.vue";
+import productCard from "./components/product-card.vue";
 </script>
 
 <template>
   <div>
-    <firstButton>Click</firstButton>
+    <productCard />
   </div>
 </template>
 

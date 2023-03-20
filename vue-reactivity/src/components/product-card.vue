@@ -1,13 +1,15 @@
 <template>
   <div>
     <ul>
-      <li v-for="grocery in groceries" :key="card.id>
-      {{ grocery.name }}</li>
+      <li v-for="grocery in groceries" :key="grocery.id">
+        {{ grocery.name }} <firstButton>Add</firstButton>
+      </li>
     </ul>
   </div>
 </template>
 
 <script>
+import firstButton from "./first-button.vue";
 export default {
   data() {
     return {
