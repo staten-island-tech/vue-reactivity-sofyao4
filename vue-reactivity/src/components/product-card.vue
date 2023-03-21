@@ -1,16 +1,20 @@
 <template>
   <div>
     <ul>
-      <li v-for="grocery in groceries" :key="grocery.id">
-        {{ grocery.name }} <firstButton>Add</firstButton>
+      <li v-for="grocery in groceries" :key="grocery.name">
+        {{ grocery.name }}
+        <Button>Add</Button>
       </li>
     </ul>
   </div>
 </template>
 
 <script>
-import firstButton from "./first-button.vue";
+import Button from "./first-button.vue";
 export default {
+  components: {
+    Button,
+  },
   data() {
     return {
       groceries: [
@@ -24,4 +28,20 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+li {
+  margin-top: 2rem;
+
+  margin: 4rem;
+  padding: 3rem 9rem;
+
+  width: 24%;
+  border-radius: 2rem;
+}
+</style>

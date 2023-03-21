@@ -23,5 +23,13 @@ import productCard from "./components/product-card.vue";
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+  body,
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    text-align: center;
+  }
 }
 </style>
