@@ -2,7 +2,7 @@
   <div>
     <ul>
       <li v-for="grocery in groceries" :key="grocery.name">
-        {{ grocery.name }}
+        {{ grocery.name }} Price: ${{ grocery.price }}
         <Button>Add</Button>
       </li>
     </ul>
@@ -37,10 +37,10 @@ ul {
 }
 li {
   margin-top: 2rem;
-
+  list-style: none;
   margin: 4rem;
   padding: 3rem 9rem;
-
+  color: red;
   width: 24%;
   border-radius: 2rem;
 }
