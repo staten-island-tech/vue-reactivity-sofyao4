@@ -1,35 +1,23 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-
-import Home from "../views/Nav-Home.vue";
 import productCard from "./components/product-card.vue";
+import mainHeader from "./components/rootcomp.vue";
+import shopCart from "./components/shopCart.vue";
 </script>
 
 <template>
   <div>
+    <mainHeader></mainHeader>
     <productCard />
   </div>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-  body,
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 62.5%;
-    text-align: center;
-  }
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  text-align: center;
 }
 </style>

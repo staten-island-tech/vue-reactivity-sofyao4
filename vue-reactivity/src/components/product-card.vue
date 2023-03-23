@@ -2,7 +2,11 @@
   <div>
     <ul>
       <li v-for="grocery in groceries" :key="grocery.name">
-        {{ grocery.name }} Price: ${{ grocery.price }}
+        <h2>
+          {{ grocery.name }}
+        </h2>
+        <h3>Price: ${{ grocery.price }}</h3>
+
         <Button>Add</Button>
       </li>
     </ul>
@@ -30,18 +34,19 @@ export default {
 
 <style scoped>
 ul {
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  width: 100%;
 }
 li {
-  margin-top: 2rem;
+  background-color: aliceblue;
+
   list-style: none;
-  margin: 4rem;
-  padding: 3rem 9rem;
-  color: red;
-  width: 24%;
+  margin: 2rem 2rem;
+  padding: 3rem 5rem;
+
   border-radius: 2rem;
 }
 </style>

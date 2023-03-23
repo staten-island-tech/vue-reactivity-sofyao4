@@ -1,18 +1,17 @@
 <template>
   <div>
-    <h1>Header</h1>
+    <h2>Shopping Cart</h2>
   </div>
 </template>
 
 <script>
 export default {
-  name: "mainHeader",
+  name: "shopCart",
 };
 </script>
 
 <style scoped>
-h1 {
-  margin: 5%;
-  text-align: center;
+h2 {
+  padding: 2rem 1rem 10rem 1rem;
 }
 </style>

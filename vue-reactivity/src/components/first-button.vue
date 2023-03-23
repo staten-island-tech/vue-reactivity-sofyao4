@@ -12,7 +12,8 @@ export default {
 
 <style scoped>
 button {
-  color: pink;
+  color: gray;
   font-size: 15px;
+  background-color: azure;
 }
 </style>
