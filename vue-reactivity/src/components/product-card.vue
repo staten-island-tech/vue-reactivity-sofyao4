@@ -16,6 +16,7 @@
 <script>
 import Button from "./first-button.vue";
 export default {
+  name: "productCard",
   components: {
     Button,
   },
@@ -38,11 +39,11 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 100%;
+  align-items: end;
+  width: 80%;
 }
 li {
   background-color: aliceblue;
-
   list-style: none;
   margin: 2rem 2rem;
   padding: 3rem 5rem;
