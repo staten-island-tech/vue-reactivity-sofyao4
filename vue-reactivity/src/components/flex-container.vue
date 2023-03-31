@@ -3,7 +3,9 @@
     <div class="first-el">
       <productCard></productCard>
     </div>
-    <div class="second-el"></div>
+    <div class="second-el">
+      <h2>Cart</h2>
+    </div>
   </div>
 </template>
 
@@ -17,15 +19,15 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped>
 .main {
   display: flex;
 }
 .first-el {
-  display: flex;
-  flex-grow: 7;
+  flex-grow: 3;
 }
 .second-el {
-  flex-grow: 3;
+  padding: 0rem 5rem 10rem 5rem;
+  flex-grow: 2;
 }
 </style>

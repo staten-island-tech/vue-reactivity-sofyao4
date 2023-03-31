@@ -14,7 +14,7 @@ import kuntainer from "./components/flex-container.vue";
 <style scoped>
 body,
 * {
-  margin: 0;
+  margin: 8% 4%;
   padding: 0;
   box-sizing: border-box;
 

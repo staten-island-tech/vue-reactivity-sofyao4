@@ -27,6 +27,8 @@ export default {
         { name: "milk", price: 4 },
         { name: "bread", price: 5 },
         { name: "apples", price: 6 },
+        { name: "gsfo", price: 6 },
+        { name: "gsfo", price: 6 },
       ],
     };
   },
@@ -40,7 +42,7 @@ ul {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: end;
-  width: 80%;
+  width: 60%;
 }
 li {
   background-color: aliceblue;
