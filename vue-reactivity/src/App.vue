@@ -1,14 +1,12 @@
 <script setup>
-import mainHeader from "./components/rootcomp.vue";
-import shopCart from "./components/shopCart.vue";
 import kuntainer from "./components/flex-container.vue";
 </script>
 
 <template>
   <div>
-    <mainHeader></mainHeader>
+    <h1>Online Grocery Store</h1>
+    <kuntainer />
   </div>
-  <kuntainer></kuntainer>
 </template>
 
 <style scoped>
@@ -17,7 +15,9 @@ body,
   margin: 8% 4%;
   padding: 0;
   box-sizing: border-box;
-
   text-align: center;
+}
+h1 {
+  font-size: 300%;
 }
 </style>

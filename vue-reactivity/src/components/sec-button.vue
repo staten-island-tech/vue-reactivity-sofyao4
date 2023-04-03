@@ -1,12 +1,12 @@
 <template>
-  <button>
-    <slot></slot>
-  </button>
+  <div>
+    <button><slot></slot></button>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "Button",
+  name: "remove",
   props: {
     name: String,
     price: Number,
@@ -16,8 +16,6 @@ export default {
 
 <style scoped>
 button {
-  font-size: 15px;
-  color: #f3f2f1;
   background-color: #874f38;
 }
 </style>
